@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: "Quicksand", sans-serif;
+}
+
+.header {
+    background-color:rgb(105, 105, 105);
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+.nav__item {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 70px;
+    color: rgb(145, 197, 18);
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px 20px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 16rem;
+    text-align: center;
+
+}
+
+.card-img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.producto-carrito {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.total {
+    font-size: 1.2rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+.table {
+    color: white;
+}
+
